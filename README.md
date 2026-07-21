@@ -54,6 +54,16 @@ Scan a live URL using a rendered Chromium session. Browser Scan waits for page r
 - Lucide React
 - Vercel for deployment
 
+## How we used Codex and GPT-5.6
+
+AccessTrace was built through an iterative collaboration with Codex using GPT-5.6.
+
+Codex accelerated the project from early product exploration through implementation. It helped us evaluate several directions, narrow the project to accessibility regression testing, build the Next.js interface, implement baseline and candidate comparison, add remediation patches, create the rendered Browser Scan flow, diagnose deployment issues, and prepare the README and submission materials.
+
+The key product decisions remained human-led. We chose to focus on regressions rather than generic accessibility scores, to show the actual keyboard and screen-reader journey, and to limit automatic fixes to changes that can be verified safely.
+
+GPT-5.6 was used throughout the Codex workflow for code generation, debugging, UI iteration, technical reasoning, test-case design, and documentation. It helped turn feedback from real browser tests into concrete improvements, including fixing misleading static keyboard-stop counts and improving the Playground workflow from detection to remediation and verification.
+
 ## Run locally
 
 Prerequisites:
