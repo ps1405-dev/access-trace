@@ -1,0 +1,15 @@
+.trace nav > .header-action {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  border-radius: 7px;
+  background: #147553;
+  color: #fff;
+  padding: 10px 13px;
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.trace nav > .header-action:hover {
+  background: #0d543c;
+}
